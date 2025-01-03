@@ -1,0 +1,58 @@
+{
+    "cars": [
+      {
+         "id": 1, "name": "Toyota Corolla", 
+         "price": "2,500,000 KES", 
+         "image": "toyota corolla.jpg" 
+      },
+      { 
+        "id": 2, 
+        "name": "Honda Civic", 
+        "price": "2,800,000 KES", 
+        "image": "URL_to_image" 
+      },
+      { 
+        "id": 3, 
+        "name": "Ford Mustang", 
+        "price": "6,500,000 KES", 
+        "image": "URL_to_image" 
+      },
+      { 
+        "id": 4, 
+        "name": "Nissan X-Trail", 
+        "price": "3,200,000 KES", 
+        "image": "URL_to_image" 
+     },
+      { 
+        "id": 5, 
+        "name": "Mazda CX-5", 
+        "price": "3,800,000 KES", 
+        "image": "URL_to_image" 
+     },
+      { 
+        "id": 6, 
+        "name": "Subaru Outback", 
+        "price": "4,000,000 KES", 
+        "image": "URL_to_image" 
+     },
+      { 
+        "id": 7, 
+        "name": "Mercedes-Benz C-Class", 
+        "price": "6,000,000 KES", 
+        "image": "URL_to_image" 
+     },
+      { 
+        "id": 8, 
+        "name": "BMW 3 Series", 
+        "price": "5,800,000 KES", 
+        "image": "URL_to_image" 
+     },
+      { 
+        "id": 9, 
+        "name": "Land Rover Discovery", 
+        "price": "9,000,000 KES", 
+        "image": "URL_to_image" }
+    ]
+  }
+  
+  
