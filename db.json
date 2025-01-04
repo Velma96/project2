@@ -1,60 +1,58 @@
 {
-    "cars": [
-      {
-         "id": 1, "name": "Toyota Corolla", 
-         "price": "2,500,000 KES", 
-         "image": "toyota corolla.jpg"
-
-      },
-      { 
-        "id": 2, 
-        "name": "Honda Civic", 
-        "price": "2,800,000 KES", 
-        "image": "/honda.jpg" 
-      },
-      { 
-        "id": 3, 
-        "name": "Ford Mustang", 
-        "price": "6,500,000 KES", 
-        "image": "/mustang.jpg" 
-      },
-      { 
-        "id": 4, 
-        "name": "Nissan X-Trail", 
-        "price": "3,200,000 KES", 
-        "image": "xtrail.jpg" 
-     },
-      { 
-        "id": 5, 
-        "name": "Mazda CX-5", 
-        "price": "3,800,000 KES", 
-        "image": "cx5.jpg" 
-     },
-      { 
-        "id": 6, 
-        "name": "Subaru Outback", 
-        "price": "4,000,000 KES", 
-        "image": "subaru.jpg" 
-     },
-      { 
-        "id": 7, 
-        "name": "Mercedes-Benz C-Class", 
-        "price": "6,000,000 KES", 
-        "image": "benz.jpg" 
-     },
-      { 
-        "id": 8, 
-        "name": "BMW 3 Series", 
-        "price": "5,800,000 KES", 
-        "image": "bmw.jpg" 
-     },
-      { 
-        "id": 9, 
-        "name": "Land Rover Discovery", 
-        "price": "9,000,000 KES", 
-        "image": "discovery.jpg" 
-     }
-    ]
-  }
-  
-  
+  "cars": [
+    {
+      "id": 1,
+      "name": "Toyota Corolla",
+      "price": "2,500,000 KES",
+      "image": "toyota-corolla.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Honda Civic",
+      "price": "2,800,000 KES",
+      "image": "honda-civic.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Ford Mustang",
+      "price": "6,500,000 KES",
+      "image": "ford-mustang.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Nissan X-Trail",
+      "price": "3,200,000 KES",
+      "image": "nissan-xtrail.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Mazda CX-5",
+      "price": "3,800,000 KES",
+      "image": "mazda-cx5.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Subaru Outback",
+      "price": "4,000,000 KES",
+      "image": "subaru-outback.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Mercedes-Benz C-Class",
+      "price": "6,000,000 KES",
+      "image": "mercedes-cclass.jpg"
+    },
+    {
+      "id": 8,
+      "name": "BMW 3 Series",
+      "price": "5,800,000 KES",
+      "image": "bmw-3series.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Land Rover Discovery",
+      "price": "9,000,000 KES",
+      "image": "landrover-discovery.jpg"
+    }
+  ]
+}
