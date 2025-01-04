@@ -3,19 +3,20 @@
       {
          "id": 1, "name": "Toyota Corolla", 
          "price": "2,500,000 KES", 
-         "image": "toyota corolla.jpg" 
+         "image": "toyota corolla.jpg"
+
       },
       { 
         "id": 2, 
         "name": "Honda Civic", 
         "price": "2,800,000 KES", 
-        "image": "honda.jpg" 
+        "image": "/honda.jpg" 
       },
       { 
         "id": 3, 
         "name": "Ford Mustang", 
         "price": "6,500,000 KES", 
-        "image": "mustang.jpg" 
+        "image": "/mustang.jpg" 
       },
       { 
         "id": 4, 
