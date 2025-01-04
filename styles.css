@@ -78,13 +78,54 @@ body {
     padding: 10px;
     text-align: center;
     width: 250px;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  .car:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
   }
   
   .car img {
     max-width: 100%;
     border-radius: 8px;
+    transition: transform 0.3s;
+  }
+  .car img:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+  #services {
+    background: linear-gradient(135deg, #e6f7ff, #f5faff);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   }
   
+  #services ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #services ul li {
+    margin: 10px 0;
+    font-size: 1.1rem;
+    color: #333;
+    position: relative;
+    padding-left: 25px;
+  }
+  #services ul li::before {
+    content: "\2713";
+    position: absolute;
+    left: 0;
+    color: #00509e;
+    font-size: 1.2rem;
+  }
+  
+  #services ul li:hover {
+    color: #00509e;
+    font-weight: bold;
+    text-decoration: underline;
+  }
   footer {
     background: #003366;
     color: #fff;

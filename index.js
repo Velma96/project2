@@ -14,14 +14,17 @@ document.addEventListener("DOMContentLoaded", () => {
       carDiv.classList.add("car");
 
       carDiv.innerHTML = `
-        <img src="${car.image}" alt="${car.name}" />
+        <img src="${car.image}" alt="${car.name}" class="car-image" />
         <h3>${car.name}</h3>
         <p>Price: ${car.price}</p>
         <button data-id="${car.id}">More Info</button>
       `;
 
-      const button = carDiv.querySelector("button");
-      button.addEventListener("click", () => alert(`More info about ${car.name}`));
+      // Add event listeners for interaction
+      const carImage = carDiv.querySelector(".car-image");
+      carImage.addEventListener("mouseover", () => carDiv.classList.add("car-hover"));
+      carImage.addEventListener("mouseout", () => carDiv.classList.remove("car-hover"));
+      carImage.addEventListener("click", () => alert(`You clicked on ${car.name}`));
 
       carList.appendChild(carDiv);
     });
